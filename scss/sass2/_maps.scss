@@ -1,0 +1,13 @@
+@import"../variables/variables";
+
+$decoraciones:(
+    centro:$alinear-al-centro,
+    color:$white,
+
+);
+
+
+h2{
+    text-align: map-get($decoraciones ,$alinear-al-centro);
+    
+}

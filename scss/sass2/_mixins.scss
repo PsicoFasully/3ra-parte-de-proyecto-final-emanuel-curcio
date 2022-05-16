@@ -1,0 +1,22 @@
+@import"../variables/variables";
+
+
+@mixin nav-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin header-1 {
+    background-image:$color-de-fondo;
+}
+
+
+@mixin anclas {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+
+
+}

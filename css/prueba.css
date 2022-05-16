@@ -1,0 +1,266 @@
+.body2 {
+  background-image: url(../img/fondo-tecnologia-digital-alambre-malla-red_1017-27428.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .body2 h1 {
+    text-align: center; }
+  .body2 nav {
+    display: flex;
+    justify-content: space-around; }
+    .body2 nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: 10px; }
+  .body2 a:hover {
+    color: white; }
+  .body2 header {
+    background-image: linear-gradient(to left, #00ff95, #00fff2, #0077ff, blue); }
+  .body2 .foot {
+    display: flex;
+    justify-content: space-around; }
+  .body2 .ig {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px; }
+  .body2 .fb {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px; }
+  .body2 .ig:hover {
+    color: brown; }
+  .body2 .fb:hover {
+    color: brown; }
+  .body2 .paginas {
+    margin-top: 450px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    animation-name: paginas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
+
+@keyframes paginas {
+  0% {
+    color: blue;
+    font-size: 30px; }
+  25% {
+    color: #2a51a5;
+    font-size: impact;
+    font-size: 25px; }
+  50% {
+    color: #00aeff;
+    font-size: 30px; }
+  75% {
+    color: cornflowerblue;
+    font-size: 25px; }
+  100% {
+    color: #50ffbc;
+    font-size: 30px; } }
+  .body2 .fila {
+    text-align: center; }
+  @media screen and (max-width: 720px) {
+    .body2 nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .body2 .foot {
+      display: flex;
+      flex-direction: column;
+      text-align: center; } }
+
+.body1 {
+  background-image: url(../img/fondo-tecnologia-digital-alambre-malla-red_1017-27428.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .body1 h1 {
+    text-align: center; }
+  .body1 .paginas {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    animation-name: paginas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
+  .body1 .foot {
+    display: flex;
+    justify-content: space-around; }
+  .body1 .ig {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px; }
+  .body1 .fb {
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px; }
+  .body1 .ig:hover {
+    color: brown; }
+  .body1 .fb:hover {
+    color: brown; }
+  .body1 header {
+    background-image: linear-gradient(to left, #00ff95, #00fff2, #0077ff, blue); }
+  .body1 nav {
+    display: flex;
+    justify-content: space-around; }
+    .body1 nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: 10px; }
+    .body1 nav a:hover {
+      color: white; }
+
+@keyframes paginas {
+  0% {
+    color: blue;
+    font-size: 30px; }
+  25% {
+    color: #2a51a5;
+    font-size: impact;
+    font-size: 25px; }
+  50% {
+    color: #00aeff;
+    font-size: 30px; }
+  75% {
+    color: cornflowerblue;
+    font-size: 25px; }
+  100% {
+    color: #50ffbc;
+    font-size: 30px; } }
+  @media screen and (max-width: 720px) {
+    .body1 nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center; }
+    .body1 .foot {
+      display: flex;
+      flex-direction: column;
+      text-align: center; } }
+
+.body {
+  background-image: url(../img/wallpaper-4106667_960_720.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .body .contenedor {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 33.3%);
+    grid-template-rows: repeat(2, 400px);
+    grid-template-areas: "img-1 img-2" "img-3 img-4"; }
+  .body .img-1 {
+    grid-area: img-1; }
+  .body .img-2 {
+    grid-area: img-2; }
+  .body .img-3 {
+    grid-area: img-3;
+    text-align: center;
+    margin-top: 200px; }
+    .body .img-3 a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px; }
+    .body .img-3 a:hover {
+      color: brown; }
+  .body .img-4 {
+    grid-area: img-4;
+    text-align: center;
+    margin-top: 200px; }
+    .body .img-4 a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px; }
+    .body .img-4 a:hover {
+      color: brown; }
+  @media screen and (max-width: 720px) {
+    .body .contenedor {
+      display: grid;
+      grid-template-columns: repeat(1, 50%);
+      grid-template-rows: repeat(4, 200px);
+      grid-template-areas: "img-1" "img-2" "img-3" "img-4"; }
+    .body .img-1 {
+      grid-area: img-1;
+      margin-top: 20px; }
+    .body .img-2 {
+      grid-area: img-2;
+      margin-top: 30px; }
+    .body .img-3 {
+      grid-area: img-3;
+      margin-top: 30px; }
+    .body .img-4 {
+      grid-area: img-4;
+      margin-top: 30px; }
+    .body .foot {
+      display: flex;
+      flex-direction: column;
+      text-align: center; } }
+  .body .foot {
+    display: flex;
+    justify-content: space-around; }
+  .body .ig {
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px; }
+  .body .fb {
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px; }
+  .body .ig:hover {
+    color: brown; }
+  .body .fb:hover {
+    color: brown; }
+  .body .pages {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    animation-name: pages;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
+
+@keyframes pages {
+  0% {
+    color: #00ff73;
+    font-size: 30px; }
+  25% {
+    color: #2aa538;
+    font-size: impact;
+    font-size: 25px; }
+  50% {
+    color: #09ff00;
+    font-size: 30px; }
+  75% {
+    color: #b8ed64;
+    font-size: 25px; }
+  100% {
+    color: #ffc850;
+    font-size: 30px; } }
+
+.h2, .body h2 {
+  text-align: center;
+  color: white;
+  margin-top: 15px; }
+
+* {
+  margin: 0;
+  padding: 0; }

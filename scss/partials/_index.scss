@@ -1,0 +1,186 @@
+.body{
+    background-image: url(../img/wallpaper-4106667_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    h2{
+        @extend.h2;
+    }
+
+    .contenedor{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        display: grid;
+        grid-template-columns:repeat(2, 33.3%);
+        grid-template-rows: repeat(2, 400px);
+
+        grid-template-areas: 
+        
+        
+        "img-1 img-2"
+        "img-3 img-4"
+        
+        
+        ;
+    }
+
+
+    .img-1{
+        grid-area: img-1;
+    }
+    .img-2{
+        grid-area: img-2;
+
+    }
+    .img-3{
+        grid-area: img-3;
+        text-align: center;
+        margin-top: 200px;
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:hover{
+            color: brown;
+        }
+    }
+    .img-4{
+        grid-area: img-4;
+        text-align: center;
+        margin-top: 200px;
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:hover{
+            color: brown;
+        }
+    }
+    @media screen and (max-width: 720px) {
+        
+
+        .contenedor{
+            
+            
+            display: grid;
+            grid-template-columns:repeat(1, 50%);
+            grid-template-rows: repeat(4, 200px);
+    
+            grid-template-areas: 
+            
+            
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            
+            
+            ;
+        }
+        
+    
+        
+        
+        ;
+        .img-1{
+            grid-area: img-1;
+            margin-top: 20px;
+        }
+        .img-2{
+            grid-area: img-2;
+            margin-top: 30px;
+        }
+        .img-3{
+            grid-area: img-3;
+            margin-top: 30px;
+        }
+        .img-4{
+        grid-area: img-4;
+            margin-top: 30px;
+        }
+        
+        .foot{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+
+    }
+
+    
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    
+    .ig{
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    .fb{
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .ig:hover{
+        color: brown;
+    }
+    .fb:hover{
+        color:brown;
+    }
+    .pages{
+        text-align: center;
+        margin-top: 50px;
+        
+        font-size: 30px;
+        
+        text-align: center;
+        color:white;
+        animation-name: pages;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+    @keyframes pages{
+        0%{
+            color: rgb(0, 255, 115);
+            font-size: 30px;
+        }
+        25%{
+            color: rgb(42, 165, 56);
+            font-size: impact,;
+            font-size: 25px;
+        }
+        50%{
+            color:rgb(9, 255, 0);
+            font-size: 30px;
+            
+            
+    
+        }
+        75%{
+            color: rgb(184, 237, 100);
+            font-size: 25px;
+        }
+        100%{
+            color:rgb(255, 200, 80);
+            font-size: 30px;
+            
+        }
+    }
+
+
+}
+
