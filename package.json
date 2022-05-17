@@ -14,5 +14,13 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PsicoFasully/3ra-parte-de-proyecto-final-emanuel-curcio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PsicoFasully/3ra-parte-de-proyecto-final-emanuel-curcio/issues"
+  },
+  "homepage": "https://github.com/PsicoFasully/3ra-parte-de-proyecto-final-emanuel-curcio#readme",
   "description": ""
 }
