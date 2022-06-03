@@ -261,6 +261,252 @@
   color: white;
   margin-top: 15px; }
 
+.body3 .tit {
+  text-align: center;
+  background-image: url(../img/Botas-hombres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 25px; }
+
+.body3 .contenedor {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 33.3%);
+  grid-template-rows: repeat(4, 400px);
+  grid-template-areas: "img-1 img-2" "img-3 img-4" "img-5 img-6" "img-7 img-8"; }
+
+.body3 .img-1 {
+  grid-area: img-1;
+  background-image: url(../img/IMG_20210929_162042.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body3 .img-2 {
+  grid-area: img-2;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body3 .img-3 {
+  grid-area: img-3;
+  background-image: url(../img/IMG_20210929_162723.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body3 .img-4 {
+  grid-area: img-4;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body3 .img-5 {
+  grid-area: img-5;
+  background-image: url(../img/IMG_20210929_162851.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body3 .img-6 {
+  grid-area: img-6;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body3 .img-7 {
+  grid-area: img-7;
+  background-image: url(../img/IMG_20210929_162656.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body3 .img-8 {
+  grid-area: img-8;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body3 .sec {
+  margin-top: 10px;
+  text-align: center;
+  background-image: url(../img/Botas-hombres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.body3 h3 {
+  color: white; }
+
+.body3 .esp {
+  margin-top: 10px; }
+
+.body3 .pag2 {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white; }
+
+.body3 .foot {
+  display: flex;
+  justify-content: space-around; }
+
+.body3 .ig {
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px; }
+
+.body3 .fb {
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px; }
+
+.body3 .ig:hover {
+  color: brown; }
+
+.body3 .fb:hover {
+  color: brown; }
+
+@media screen and (max-width: 720px) {
+  .body3 .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+    grid-template-rows: repeat(8, 200px);
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4" "img-5" "img-6" "img-7" "img-8"; } }
+
+.body4 .contenedor {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 33.3%);
+  grid-template-rows: repeat(4, 400px);
+  grid-template-areas: "img-1 img-2" "img-3 img-4" "img-5 img-6" "img-7 img-8"; }
+
+.body4 .img-1 {
+  grid-area: img-1;
+  background-image: url(../img/IMG_20210903_143014.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body4 .img-2 {
+  grid-area: img-2;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body4 .img-3 {
+  grid-area: img-3;
+  background-image: url(../img/IMG_20210903_143108.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body4 .img-4 {
+  grid-area: img-4;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body4 .img-5 {
+  grid-area: img-5;
+  background-image: url(../img/IMG_20210903_143131.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body4 .img-6 {
+  grid-area: img-6;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body4 .img-7 {
+  grid-area: img-7;
+  background-image: url(../img/IMG_20210903_143234.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px; }
+
+.body4 .img-8 {
+  grid-area: img-8;
+  margin-top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.body4 .tit {
+  text-align: center;
+  background-image: url(../img/Botas-hombres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 25px; }
+
+.body4 .sec {
+  margin-top: 10px;
+  text-align: center;
+  background-image: url(../img/Botas-hombres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.body4 h3 {
+  color: white; }
+
+.body4 .esp {
+  margin-top: 10px; }
+
+.body4 .pag1 {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white; }
+
+.body4 .foot {
+  display: flex;
+  justify-content: space-around; }
+
+.body4 .ig {
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px; }
+
+.body4 .fb {
+  margin-top: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px; }
+
+.body4 .ig:hover {
+  color: brown; }
+
+.body4 .fb:hover {
+  color: brown; }
+
+@media screen and (max-width: 720px) {
+  .body4 .contenedor {
+    display: grid;
+    grid-template-columns: repeat(1, 50%);
+    grid-template-rows: repeat(8, 200px);
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4" "img-5" "img-6" "img-7" "img-8"; } }
+
 * {
   margin: 0;
   padding: 0; }

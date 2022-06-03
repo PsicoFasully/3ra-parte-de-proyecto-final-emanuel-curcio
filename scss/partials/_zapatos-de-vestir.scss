@@ -1,0 +1,173 @@
+.body4{
+
+    .contenedor{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        display: grid;
+        grid-template-columns:repeat(2, 33.3%);
+        grid-template-rows: repeat(4, 400px);
+
+        grid-template-areas: 
+        
+        
+        "img-1 img-2"
+        "img-3 img-4"
+        "img-5 img-6"
+        "img-7 img-8"
+        
+        
+        ;
+    }
+    .img-1{
+        grid-area: img-1;
+        background-image: url(../img/IMG_20210903_143014.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 15px;
+        
+    }
+    .img-2{
+        grid-area: img-2;
+        margin-top: 50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+
+    }
+    .img-3{
+        grid-area: img-3;
+        background-image: url(../img/IMG_20210903_143108.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 15px;
+
+        
+    }
+    .img-4{
+        grid-area: img-4;
+        margin-top: 50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    
+    }
+    .img-5{
+        grid-area: img-5;
+        background-image: url(../img/IMG_20210903_143131.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 15px;
+    }
+    .img-6{
+        grid-area: img-6;
+        margin-top: 50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+
+    }
+    .img-7{
+        grid-area: img-7;
+        background-image: url(../img/IMG_20210903_143234.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 15px;
+
+        
+    }
+    .img-8{
+        grid-area: img-8;
+        margin-top: 50%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    
+    }
+    .tit{
+        text-align: center;
+        background-image: url(../img/Botas-hombres.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        margin-top: 25px;
+    }
+    .sec{
+        margin-top: 10px;
+        text-align: center;
+        background-image: url(../img/Botas-hombres.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    h3{
+        color: white;
+    }
+    .esp{
+        margin-top: 10px;
+    }
+    .pag1{
+        margin-top: 20px;
+        
+        font-size: 30px;
+        
+        text-align: center;
+        color:white;
+    }
+    
+    
+    
+    .foot{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    
+    .ig{
+        margin-top: 25px;
+        text-decoration: none;
+        color:white;
+        font-size: 25px;
+    }
+    .fb{
+        margin-top: 25px;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .ig:hover{
+        color: brown;
+    }
+    .fb:hover{
+        color:brown;
+    }
+    @media screen and (max-width: 720px) {
+        
+
+        .contenedor{
+            
+            
+            display: grid;
+            grid-template-columns:repeat(1, 50%);
+            grid-template-rows: repeat(8, 200px);
+    
+            grid-template-areas: 
+            
+            
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6"
+            "img-7"
+            "img-8"
+            
+            
+            ;
+        }
+    }
+
+}
